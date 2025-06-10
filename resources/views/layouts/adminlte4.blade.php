@@ -265,7 +265,7 @@
                             </a>
                         </li>
                         <li class="nav-item menu">
-                            <a href=" #" class="nav-link">
+                            <a href="{{ url ('buku')}}" class="nav-link">
                                 <i class="nav-icon bi bi-egg-fried"></i>
                                 <p>
                                     Manajemen Buku
@@ -273,7 +273,7 @@
                             </a>
                         </li>
                         <li class="nav-item menu">
-                            <a href="#" class="nav-link">
+                            <a href="{{ url ('member')}}" class="nav-link">
                                 <i class="nav-icon bi bi-tags"></i>
                                 <p>
                                     Manajemen Member
@@ -282,7 +282,7 @@
                         </li>
 
                         <li class="nav-item menu">
-                            <a href=" #" class="nav-link">
+                            <a href=" {{ url ('peminjaman')}}" class="nav-link">
                                 <i class="nav-icon bi bi-egg-fried"></i>
                                 <p>
                                     Manajemen Peminjaman
@@ -290,7 +290,7 @@
                             </a>
                         </li>
                         <li class="nav-item menu">
-                            <a href=" #" class="nav-link">
+                            <a href=" {{ url ('pengembalian')}}" class="nav-link">
                                 <i class="nav-icon bi bi-egg-fried"></i>
                                 <p>
                                     Manajemen Pengembalian

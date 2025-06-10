@@ -7,8 +7,9 @@
 {{-- Konten Halaman --}}
 @section('content')
 <div class="container-fluid">
+    <br>
     <!-- Content Header (Page header) -->
-    <div class="content-header">
+    {{-- <div class="content-header">
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
@@ -22,7 +23,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- /.content-header -->
 
     <!-- Main content -->
@@ -35,7 +36,7 @@
                     <div class="small-box bg-info">
                         <div class="inner">
                             {{-- Variabel ini harus dikirim dari Controller --}}
-                            {{-- <h3>{{ $totalBukuCount ?? '0' }}</h3> --}}
+                            <h3>{{ $totalBukuCount ?? '0' }}</h3>
                             <p>Total Judul Buku</p>
                         </div>
                         <div class="icon">
@@ -65,7 +66,7 @@
                     <div class="small-box bg-warning">
                         <div class="inner">
                             {{-- Variabel ini harus dikirim dari Controller --}}
-                            {{-- <h3>{{ $memberAktifCount ?? '0' }}</h3> --}}
+                            <h3>{{ $memberAktifCount ?? '0' }}</h3>
                             <p>Total Member Aktif</p>
                         </div>
                         <div class="icon">
@@ -80,7 +81,7 @@
                     <div class="small-box bg-danger">
                         <div class="inner">
                             {{-- Variabel ini harus dikirim dari Controller --}}
-                            {{-- <h3>{{ $jatuhTempoCount ?? '0' }}</h3> --}}
+                            <h3>{{ $jatuhTempoCount ?? '0' }}</h3>
                             <p>Jatuh Tempo Minggu Ini</p>
                         </div>
                         <div class="icon">
